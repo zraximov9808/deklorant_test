@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2 {
+  color: #6a1b9a;
+}
+
+#timer {
+  font-weight: bold;
+}
+
+.form-control:focus {
+  border-color: #6a1b9a;
+  box-shadow: 0 0 8px rgba(106, 27, 154, 0.5);
+}
